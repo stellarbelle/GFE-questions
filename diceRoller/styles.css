@@ -1,0 +1,34 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  .dice {
+    width: 70px;
+    height: 70px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    display: inline-flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 15px;
+  }
+  
+  .roll {
+    width: 10px;
+    height: 10px;
+    border: 2px solid gray;
+    border-radius: 50px;
+  }
+  
+  .dice-wrapper {
+    width: 350px;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .wrapper {
+    display: inline-flex;
+    flex-direction: column;
+  }

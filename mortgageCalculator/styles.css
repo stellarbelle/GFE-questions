@@ -1,0 +1,17 @@
+body {
+    font-family: sans-serif;
+}
+
+.form {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.wrapper {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+input {
+    margin-bottom: 15px;
+}
